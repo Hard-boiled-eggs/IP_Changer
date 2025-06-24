@@ -5,7 +5,6 @@
 IP 주소를 수동으로 변경하는 번거로움을 해결하기 위해 Gemini AI의 도움을 받아 제작한 Windows용 GUI 프로그램입니다.
 
 ![프로그램 스크린샷](screenshot.png)
-*(▲ 프로그램의 스크린샷을 `screenshot.png` 이름으로 저장하여 깃허브에 함께 올려주세요)*
 
 ## ✨ 주요 기능 (Key Features)
 
