@@ -2,7 +2,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-수동으로 IP 주소를 변경하는 번거로움을 해결하기 위해 Gemini 2.5 Pro의 도움을 받아 제작한 Windows용 GUI 프로그램입니다.
+IP 주소를 수동으로 변경하는 번거로움을 해결하기 위해 Gemini AI의 도움을 받아 제작한 Windows용 GUI 프로그램입니다.
 
 ![프로그램 스크린샷](screenshot.png)
 *(▲ 프로그램의 스크린샷을 `screenshot.png` 이름으로 저장하여 깃허브에 함께 올려주세요)*
@@ -18,10 +18,10 @@
 
 ## 🚀 사용법 (How to Use)
 
-### 1. 일반 사용자 (실행 파일)
+### 1. 일반 사용자 (실행 파일 .exe)
 
-1.  이 깃허브 페이지 오른쪽의 **[Releases](https://github.com/Hard-boiled-eggs/IP_Changer/releases)** 메뉴로 이동합니다.
-    *(▲ 위 링크는 사용자님의 깃허브 주소로 예시를 만든 것입니다. 실제 주소로 수정해주세요.)*
+1.  이 깃허브 페이지 오른쪽의 **[Releases](https://github.com/Hard-boiled-eggs/IP_Changer/releases)** 메뉴로 이동하세요.
+    *(▲ 위 링크는 사용자님의 깃허브 주소를 바탕으로 만든 예시입니다. 실제 저장소 이름에 맞게 수정이 필요할 수 있습니다.)*
 2.  가장 최신 버전의 `ip_changer.exe` 파일을 다운로드합니다.
 3.  다운로드한 파일을 실행합니다. (별도의 설치가 필요 없습니다.)
 
@@ -38,7 +38,7 @@
     ```bash
     pip install psutil
     ```
-3.  스크립트를 실행합니다.
+3.  스크립트를 실행합니다. 콘솔 창 없이 실행하려면 파일 확장자를 `.pyw`로 변경하는 것을 권장합니다.
     ```bash
     python ip_changer.pyw
     ```
@@ -51,6 +51,7 @@
 ---
 ### 네트워크 IP 설정 변경기 - 프로그램 설명서
 *문서 기준 버전: 1.6*
+*최종 수정일: 2025년 6월 24일*
 
 #### 1. 개요 (Overview)
 네트워크 IP 설정 변경기는 Windows 운영체제에서 유선 이더넷(Ethernet) 어댑터의 IP 주소 설정을 간편하게 변경할 수 있도록 제작된 파이썬 GUI 프로그램입니다. DHCP(자동 주소 할당) 모드와 다수의 고정 IP 프로필 사이를 자주 전환해야 하는 사용자를 위해 개발되었습니다. 이 프로그램은 복잡한 제어판 설정이나 `netsh` 명령어에 익숙하지 않은 사용자도 버튼 클릭 몇 번만으로 직관적으로 네트워크 환경을 변경할 수 있도록 돕는 것을 목표로 합니다.
@@ -95,3 +96,4 @@
 ## 👨‍💻 만든 사람 (Author)
 
 * [삶과삶 (Hard-boiled-eggs)](https://github.com/Hard-boiled-eggs)
+* *이 프로그램의 주요 로직과 구조는 Gemini AI와의 협업을 통해 개발되었습니다.*
